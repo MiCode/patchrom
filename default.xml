@@ -13,7 +13,7 @@
   </project>
   <project path="manifest" name="MiCode/patchrom" />
   <project path="android" name="MiCode/patchrom_android" />
-  <project path="honor" name="MiCode/patchrom_horner" />
+  <project path="honor" name="MiCode/patchrom_honor" />
   <project path="i9100" name="MiCode/patchrom_i9100" />
   <project path="lt18i" name="MiCode/patchrom_lt18i" />
   <project path="sensation" name="MiCode/patchrom_sensation" />
