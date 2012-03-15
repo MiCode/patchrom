@@ -11,7 +11,7 @@
   <project path="build" name="MiCode/patchrom_build">
     <copyfile src="makefile" dest="Makefile" />
   </project>
-  <project path="patchrom" name="MiCode/patchrom" />
+  <project path="manifest" name="MiCode/patchrom" />
   <project path="android" name="MiCode/patchrom_android" />
   <project path="honor" name="MiCode/patchrom_horner" />
   <project path="i9100" name="MiCode/patchrom_i9100" />
