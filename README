@@ -1,6 +1,17 @@
 Patchrom
 ===========
 
+Get Android SDK
+----------------
+
+In order to build patchrom project, you must have android sdk installed.(http://developer.android.com/sdk/installing.html)
+
+And add the sdk tools and platform-tools to PATH.
+
+vim .bashrc
+
+export PATH=$PATH:/home/xxx/android-sdk/tools:/home/xxx/anroid-sdk/platform-tools
+
 Getting Started
 ---------------
 
