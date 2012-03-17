@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+           fetch=".." />
+
+  <default revision="refs/heads/gingerbread"
+           remote="github"
+           sync-j="4" />
+
+  <project path="build" name="MiCode/patchrom_build" />
+  <project path="patchrom" name="MiCode/patchrom" />
+  <project path="android" name="MiCode/patchrom_android" />
+  <project path="defy" name="MiCode/patchrom_defy" />
+  <project path="i9100" name="MiCode/patchrom_i9100" />
+  <project path="i9000" name="MiCode/patchrom_i9000" />
+  <project path="u8800pro" name="MiCode/patchrom_u8800pro" />
+  <project path="miui" name="MiCode/patchrom_miui" />
+  <project path="tools" name="MiCode/patchrom_tools" />
+</manifest>
