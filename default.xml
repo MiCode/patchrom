@@ -15,6 +15,7 @@
   <project path="i9100" name="MiCode/patchrom_i9100" />
   <project path="i9000" name="MiCode/patchrom_i9000" />
   <project path="u8800pro" name="MiCode/patchrom_u8800pro" />
+  <project path="lt18i" name="MiCode/patchrom_lt18i" />
   <project path="miui" name="MiCode/patchrom_miui" />
   <project path="tools" name="MiCode/patchrom_tools" />
 </manifest>
