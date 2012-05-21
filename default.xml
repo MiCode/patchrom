@@ -17,6 +17,7 @@
   <project path="i9100" name="MiCode/patchrom_i9100" />
   <project path="lt18i" name="MiCode/patchrom_lt18i" />
   <project path="sensation" name="MiCode/patchrom_sensation" />
+  <project path="onex" name="MiCode/patchrom_onex" />
   <project path="miui" name="MiCode/patchrom_miui" />
   <project path="tools" name="MiCode/patchrom_tools" />
 </manifest>
