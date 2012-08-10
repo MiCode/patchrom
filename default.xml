@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="libra"
-           fetch="ssh://gitdaemon@git.xiaomi.com/libra2/"
-           review="git.xiaomi.com:8088" />
-  <default revision="ics"
-           remote="libra"
+  <remote name="github"
+           fetch=".." />
+
+  <default revision="refs/heads/ics"
+           remote="github"
            sync-j="4" />
 
   <project path="manifest" name="platform/manifest" revision="porting-ics" />
@@ -22,7 +22,6 @@
   <project path="gnote" name="patchrom/gnote" />
   <project path="lt18i" name="patchrom/lt18i" />
   <project path="onex" name="patchrom/onex" />
-  <project path="mx" name="patchrom/mx" />
   <project path="p1" name="patchrom/p1" />
   <project path="ones" name="patchrom/ones" />
   <project path="razr" name="patchrom/razr" />
