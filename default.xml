@@ -22,7 +22,6 @@
   <project path="miui" name="MiCode/patchrom_miui" />
   <project path="tools" name="MiCode/patchrom_tools" />
   <project path="i9300" name="MiCode/patchrom_i9300" />
-  <project path="gnote" name="MiCode/patchrom-gnote" />
   <project path="ones" name="MiCode/patchrom_ones" />
   <project path="razr" name="MiCode/patchrom-razr" />
   <project path="lt26i" name="MiCode/patchrom-lt26i" />
