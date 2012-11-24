@@ -28,4 +28,9 @@
   <project path="vivo" name="MiCode/patchrom-vivo" />
   <project path="x515m" name="MiCode/patchrom-x515m" />
   <project path="saga" name="MiCode/patchrom-saga" />
+  <project path="d1" name="MiCode/patchrom_d1" />
+  <project path="lu6200" name="MiCode/patchrom_lu6200" />
+  <project path="me865" name="MiCode/patchrom_me865" />
+  <project path="mx" name="MiCode/patchrom_mx" />
+  <project path="u970" name="MiCode/patchrom_u970" />
 </manifest>
