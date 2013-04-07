@@ -24,7 +24,7 @@ To initialize your local repository using the patchrom trees, use a command like
 
     cd patchrom
 
-    repo init -u git://github.com/MiCode/patchrom.git -b ics
+    repo init -u git://github.com/MiCode/patchrom.git -b jellybean
 
 Then to sync up:
 
