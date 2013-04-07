@@ -4,7 +4,7 @@
   <remote name="github"
            fetch=".." />
 
-  <default revision="refs/heads/ics"
+  <default revision="refs/heads/jellybean"
            remote="github"
            sync-j="4" />
 
@@ -13,24 +13,7 @@
   </project>
   <project path="manifest" name="MiCode/patchrom" />
   <project path="android" name="MiCode/patchrom_android" />
-  <project path="honor" name="MiCode/patchrom_honor" />
   <project path="i9100" name="MiCode/patchrom_i9100" />
-  <project path="lt18i" name="MiCode/patchrom_lt18i" />
-  <project path="sensation" name="MiCode/patchrom_sensation" />
-  <project path="onex" name="MiCode/patchrom_onex" />
-  <project path="p1" name="MiCode/patchrom_p1" />
   <project path="miui" name="MiCode/patchrom_miui" />
   <project path="tools" name="MiCode/patchrom_tools" />
-  <project path="i9300" name="MiCode/patchrom_i9300" />
-  <project path="ones" name="MiCode/patchrom_ones" />
-  <project path="razr" name="MiCode/patchrom-razr" />
-  <project path="lt26i" name="MiCode/patchrom-lt26i" />
-  <project path="vivo" name="MiCode/patchrom-vivo" />
-  <project path="x515m" name="MiCode/patchrom-x515m" />
-  <project path="saga" name="MiCode/patchrom-saga" />
-  <project path="d1" name="MiCode/patchrom_d1" />
-  <project path="lu6200" name="MiCode/patchrom_lu6200" />
-  <project path="me865" name="MiCode/patchrom_me865" />
-  <project path="mx" name="MiCode/patchrom_mx" />
-  <project path="u970" name="MiCode/patchrom_u970" />
 </manifest>
