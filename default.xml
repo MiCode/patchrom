@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+           fetch=".." />
+
+  <default revision="refs/heads/kitkat"
+           remote="github"
+           sync-j="4" />
+
+  <project path="build" name="MiCode/patchrom_build">
+    <copyfile src="makefile" dest="Makefile" />
+  </project>
+  <project path="manifest" name="MiCode/patchrom" />
+  <project path="android" name="MiCode/patchrom_android" />
+  <project path="miui" name="MiCode/patchrom_miui" />
+  <project path="tools" name="MiCode/patchrom_tools"/>
+</manifest>
