@@ -6,6 +6,7 @@
 
   <default revision="refs/heads/v6-kitkat"
            remote="github"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="MiCode/patchrom_build">
