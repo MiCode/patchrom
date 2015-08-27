@@ -33,11 +33,11 @@ Then to sync up:
 Build
 --------
 
-Assumed current directory is patchtom and you want to build the ROM for Huawei Honor
+Assumed current directory is patchtom and you want to build the ROM for Google Nexus5
 
 
      . build/envsetup.sh
-     cd honor
+     cd nexus5
      make fullota
 
 After build completed, there will be a fullota.zip under out directory, now you can flash this file into your device.
