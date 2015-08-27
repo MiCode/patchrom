@@ -4,17 +4,17 @@
   <remote name="github"
            fetch=".." />
 
-  <default revision="refs/heads/v6-kitkat"
+  <default revision="refs/heads/v6-android-4.4.4"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="MiCode/patchrom_build">
+  <project path="build" name="MiCode/patchrom_build" revision="miui-6">
     <copyfile src="makefile" dest="Makefile" />
   </project>
-  <project path="manifest" name="MiCode/patchrom" />
+  <project path="manifest" name="MiCode/patchrom" revision="miui-6"/>
   <project path="android" name="MiCode/patchrom_android" />
   <project path="miui" name="MiCode/patchrom_miui" />
-  <project path="tools" name="MiCode/patchrom_tools"/>
+  <project path="tools" name="MiCode/patchrom_tools" revision="miui-6"/>
   <project path="nexus5" name="MiCode/patchrom_nexus5" />
 </manifest>
