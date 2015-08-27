@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+           fetch=".." />
+
+  <default revision="refs/heads/v7-android-4.4.4"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="build" name="MiCode/patchrom_build" revision="miui-7">
+    <copyfile src="makefile" dest="Makefile" />
+  </project>
+  <project path="manifest" name="MiCode/patchrom" revision="miui-7"/>
+  <project path="android" name="MiCode/patchrom_android"/>
+  <project path="miui" name="MiCode/patchrom_miui"/>
+  <project path="tools" name="MiCode/patchrom_tools" revision="miui-7"/>
+  <project path="nexus5" name="MiCode/patchrom_nexus5" />
+</manifest>
